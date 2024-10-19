@@ -12,5 +12,4 @@ const routes = app
 export const GET = handle(app)
 export const POST = handle(app)
 
-//eslint-disable-next-line @typescript-eslint/no-unused-vars
 export type AppType = typeof routes
